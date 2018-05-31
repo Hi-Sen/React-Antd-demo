@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { browserHistory,  Link } from 'react-router'  //引入路由函数
 
@@ -100,7 +100,7 @@ export default class Demo1 extends Component {
                         </Content>
                     </Layout>
                     <Footer style={{backgroundColor:'#aaa',position:'fixed',bottom:0,width:'100vw',textAlign:'center',fontWeight:'bold'}}>
-                        2018/05/31  - react + Ant Design - gitHub地址：
+                        2018/05/31  - react + Ant Design - gitHub地址：https://github.com/Hi-Sen/React-Antd-demo-one
                     </Footer>
                 </Layout>
             </div> 
