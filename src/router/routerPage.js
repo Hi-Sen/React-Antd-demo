@@ -1,9 +1,9 @@
 import React from 'react'  
-import { Router, Route, IndexRoute,browserHistory } from 'react-router'  
+import { Router, Route, IndexRoute, browserHistor, Link } from 'react-router'  
   
-import Demo1 from '../page/demo1'  
-import Demo2 from '../page/demo2'  
-import Demo3 from '../page/demo3'  
+import Demo1 from '../page' 
+import Tabble from '../page/tabble' 
+import Label from '../page/label' 
   
 export default class RouteMap extends React.Component {  
     updateHandle() {  
@@ -11,10 +11,11 @@ export default class RouteMap extends React.Component {
     }  
     render() {  
         return (  
-             <Router history={this.props.history}  onUpdate={this.updateHandle.bind(this)}>  
-                <Route path='/' component={Demo1}></Route>  
-                <Route path="Demo2" component={Demo2}/>  
-                <Route path="Demo3/:id" component={Demo3}/>  
+            <Router history={this.props.history}  onUpdate={this.updateHandle.bind(this)}>  
+                <Route path='/' component={Demo1}>
+                    <Route path='/tabble' component={Tabble}></Route>
+                    <Route path='/label' component={Label}></Route>
+                </Route>  
             </Router>  
         )  
     }  
