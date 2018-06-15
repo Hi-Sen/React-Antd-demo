@@ -4,6 +4,8 @@ import { Router, Route, IndexRoute, browserHistor, Link } from 'react-router'
 import Demo1 from '../page' 
 import Tabble from '../page/tabble' 
 import Label from '../page/label' 
+import Form from '../page/form' 
+// import Carousel from '../page/carousel' 
   
 export default class RouteMap extends React.Component {  
     updateHandle() {  
@@ -13,8 +15,11 @@ export default class RouteMap extends React.Component {
         return (  
             <Router history={this.props.history}  onUpdate={this.updateHandle.bind(this)}>  
                 <Route path='/' component={Demo1}>
+                    <IndexRoute component={Tabble}/> 
                     <Route path='/tabble' component={Tabble}></Route>
                     <Route path='/label' component={Label}></Route>
+                    <Route path='/form' component={Form}></Route>
+                    {/* <Route path='/carousel' component={Carousel}></Route> */}
                 </Route>  
             </Router>  
         )  

@@ -38,7 +38,7 @@ export default class App extends React.Component {
             >
             <p>1, react + Ant Design 实践 demo</p>
             <p>2, 项目仅供欣赏，源码请访问本人 GitHub</p>
-            <p>3, ............</p>
+            <p>3, https://github.com/Hi-Sen/React-Antd-demo-one.git</p>
             </Modal>
         </div>
         );

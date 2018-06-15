@@ -23,40 +23,38 @@ export default class Sider extends React.Component {
 						mode="inline"
 					>
 
-				<SubMenu key="sub1" title={<span><Icon type="mail" /><span>多个分类</span></span>}>
-					<MenuItemGroup key="g1" title="分类 1">
-						<Menu.Item key="1">
-							<Link to = {'tabble'}>表格</Link> 
-						</Menu.Item>
-						<Menu.Item key="2">
-							<Link to = {'label'}>标签页</Link> 
-						</Menu.Item>
-					</MenuItemGroup>
+						<SubMenu key="sub1" title={<span><Icon type="smile-o" /><span>常用UI组件</span></span>}>
+								<Menu.Item key="1">
+									<Link to = {'tabble'}>表格</Link> 
+								</Menu.Item>
+								<Menu.Item key="2">
+									<Link to = {'label'}>标签页</Link> 
+								</Menu.Item>
+								<SubMenu key="sub10" title="嵌套导航二">
+									<Menu.Item key="3">
+										<Link to = {'form'}>表单</Link>
+									</Menu.Item>
+									<Menu.Item key="4">
+										<Link to = {'carousel'}>轮播图</Link>
+									</Menu.Item>
+								</SubMenu>
+						</SubMenu>
 
-					<MenuItemGroup key="g2" title="分类 2">
-						<Menu.Item key="3">Option 3</Menu.Item>
-						<Menu.Item key="4">Option 4</Menu.Item>
-					</MenuItemGroup>
-				</SubMenu>
-
-				<SubMenu key="sub2" title={<span><Icon type="appstore" /><span>嵌套导航</span></span>}>
-					<Menu.Item key="5">Option 5</Menu.Item>
-					<Menu.Item key="6">Option 6</Menu.Item>
-					<SubMenu key="sub3" title="嵌套导航二">
-						<Menu.Item key="7">Option 7</Menu.Item>
-						<Menu.Item key="8">Option 8</Menu.Item>
-					</SubMenu>
-				</SubMenu>
-
-				<SubMenu key="sub4" title={<span><Icon type="setting" /><span>普通导航</span></span>}>
-					<Menu.Item key="9">Option 9</Menu.Item>
-					<Menu.Item key="10">Option 10</Menu.Item>
-					<Menu.Item key="11">Option 11</Menu.Item>
-					<Menu.Item key="12">Option 12</Menu.Item>
-					<Menu.Item key="13">Option 13</Menu.Item>
-					<Menu.Item key="14">Option 14</Menu.Item>
-					<Menu.Item key="15">Option 15</Menu.Item>
-				</SubMenu>
+						<SubMenu key="sub2" title={<span><Icon type="frown" /><span>嵌套导航</span></span>}>
+							<Menu.Item key="5">Option 5</Menu.Item>
+						</SubMenu>
+						<SubMenu key="sub3" title={<span><Icon type="meh-o" /><span>嵌套导航</span></span>}>
+							<Menu.Item key="6">Option 6</Menu.Item>
+						</SubMenu>
+						<SubMenu key="sub4" title={<span><Icon type="meh" /><span>嵌套导航</span></span>}>
+							<Menu.Item key="7">Option 7</Menu.Item>
+						</SubMenu>
+						<SubMenu key="sub5" title={<span><Icon type="frown-o" /><span>嵌套导航</span></span>}>
+							<Menu.Item key="8">Option 8</Menu.Item>
+						</SubMenu>
+						<SubMenu key="sub6" title={<span><Icon type="smile" /><span>嵌套导航</span></span>}>
+							<Menu.Item key="9">Option 9</Menu.Item>
+						</SubMenu>
 
 					</Menu>
 				);
