@@ -1,14 +1,17 @@
 import React from 'react'  
 import { Router, Route, IndexRoute, browserHistor, Link } from 'react-router'  
+import '../config/globalConfig'
   
 import Demo1 from '../page' 
 import Tabble from '../page/tabble' 
 import Label from '../page/label' 
 import Form from '../page/form' 
-// import Carousel from '../page/carousel' 
-  
+import Carousel from '../page/carousel' 
+import ShopHome from '../page/shop/home'
+
+
 export default class RouteMap extends React.Component {  
-    updateHandle() {  
+    updateHandle () {  
         console.log('每次router变化之后都会触发')  
     }  
     render() {  
@@ -19,7 +22,8 @@ export default class RouteMap extends React.Component {
                     <Route path='/tabble' component={Tabble}></Route>
                     <Route path='/label' component={Label}></Route>
                     <Route path='/form' component={Form}></Route>
-                    {/* <Route path='/carousel' component={Carousel}></Route> */}
+                    <Route path='/carousel' component={Carousel}></Route>
+                    <Route path='/shop_home' component={ShopHome}></Route>
                 </Route>  
             </Router>  
         )  

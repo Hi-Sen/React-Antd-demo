@@ -46,7 +46,7 @@ export default class Demo1 extends Component {
 
     render () {
         return (
-            <div>
+            <div style={{minWidth:'1000px'}}>
                 <Layout>
                     <Header style={{color:'#fff',textAlign:'center',fontWeight:'bold'}}>
                         <Row>
@@ -57,9 +57,9 @@ export default class Demo1 extends Component {
                             <Col span={6}>
                                 <Avatar style={{backgroundColor: '#87d068',marginRight:20}} icon="user" />  
                                 <Dropdown overlay={menu}>
-                                    <a className="ant-dropdown-link" href="#" style={{color:'#fff'}}>
+                                    <span className="ant-dropdown-link" href="#" style={{color:'#fff'}}>
                                         Hi-Sen <Icon type="down" />
-                                    </a>
+                                    </span>
                                 </Dropdown>
                             </Col>
                         </Row>
@@ -74,7 +74,7 @@ export default class Demo1 extends Component {
                             {this.props.children}
                         </Content>
                     </Layout>
-                    <Footer style={{backgroundColor:'#001529',position:'fixed',bottom:0,width:'100vw',textAlign:'center',fontWeight:'bold',color:'#fff'}}>
+                    <Footer style={{backgroundColor:'#001529',position:'fixed',bottom:0,width:'100vw',minWidth:'1000px',textAlign:'center',fontWeight:'bold',color:'#fff'}}>
                         2018/05/31  - react + Ant Design - gitHub地址：
                         <a href="https://github.com/Hi-Sen/React-Antd-demo-one" target="_blank">https://github.com/Hi-Sen/React-Antd-demo-one</a>     
                     </Footer>
