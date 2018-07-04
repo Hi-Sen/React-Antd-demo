@@ -8,7 +8,7 @@ import CarouselThree from './demo3'
 export default class From extends React.Component {
     render () {
         return (
-            <div style={{marginTop:50}}>   
+            <div style={{width:'800px',margin: 'auto',marginTop:50}}>   
                 <CarouselOne/> 
                 <hr/>
                 <CarouselTwo/>

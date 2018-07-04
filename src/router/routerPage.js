@@ -15,7 +15,7 @@ export default class RouteMap extends React.Component {
     updateHandle () {  
         console.log('每次router变化之后都会触发')  
     }  
-    render() {  
+    render () {  
         return (  
             <Router history={this.props.history}  onUpdate={this.updateHandle.bind(this)}>  
                 <Route path='/' component={Demo1}>

@@ -8,7 +8,7 @@ import FromThree from './demo3'
 export default class From extends React.Component {
     render () {
         return (
-            <div>   
+            <div style={{width:'800px',margin: 'auto',marginTop:50}}>   
                 <FromOne/> 
                 <hr/>
                 <FromTwo/>

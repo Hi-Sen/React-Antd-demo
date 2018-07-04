@@ -12,7 +12,7 @@ export default class TabbleAll extends React.Component {
     
     render () {
         return (
-            <div>   
+            <div style={{width:'800px',margin: 'auto',marginTop:50}}>   
                 <TabbleOne/> 
                 <hr/>
                 <TabbleTwo/>

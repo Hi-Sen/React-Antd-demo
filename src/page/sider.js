@@ -29,7 +29,7 @@ export default class Sider extends React.Component {
 						mode="inline"
 					>
 
-						<SubMenu key="sub1" title={<span><Icon type="smile-o" /><span>Antd 常用UI组件</span></span>}>
+						<SubMenu key="sub1" title={<span><Icon type="smile-o" /><span>Antd 部分UI组件-实践</span></span>}>
 								<Menu.Item key="1">
 									<Link to = {'tabble'}>表格</Link> 
 								</Menu.Item>

@@ -45,7 +45,7 @@ export default class TabbleAll extends React.Component {
                                     />
                         })
                     }
-                </div>
+                </div> 
             </div>
         )
     }
