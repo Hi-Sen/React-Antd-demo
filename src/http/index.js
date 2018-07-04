@@ -1,7 +1,6 @@
 
 import Axios from 'axios'
 
-// var baseUrl = 'http://ws.sandbox.mammasay.com/'; //测试库
 var baseUrl = 'https://ws.mammasay.com/'; //正式库
 
 var axios = Axios.create({

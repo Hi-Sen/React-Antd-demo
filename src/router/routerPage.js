@@ -8,6 +8,7 @@ import Label from '../page/label'
 import Form from '../page/form' 
 import Carousel from '../page/carousel' 
 import ShopHome from '../page/shop/home'
+import HomeDetail from '../page/shop/home_detail'
 
 
 export default class RouteMap extends React.Component {  
@@ -24,6 +25,7 @@ export default class RouteMap extends React.Component {
                     <Route path='/form' component={Form}></Route>
                     <Route path='/carousel' component={Carousel}></Route>
                     <Route path='/shop_home' component={ShopHome}></Route>
+                    <Route path='/shop_home_detail' component={HomeDetail}></Route>
                 </Route>  
             </Router>  
         )  

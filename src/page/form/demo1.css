@@ -12,9 +12,8 @@
     margin:0 auto;
 }
 
-
-/* 轮播 */
-.ant-carousel .slick-slide {
+/* For demo */
+.car .ant-carousel .slick-slide {
     text-align: center;
     height: 160px;
     line-height: 160px;
@@ -22,6 +21,6 @@
     overflow: hidden;
   }
   
-  .ant-carousel .slick-slide h3 {
+  .car .ant-carousel .slick-slide h3 {
     color: #fff;
   }

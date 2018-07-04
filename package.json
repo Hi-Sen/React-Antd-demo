@@ -5,6 +5,7 @@
   "dependencies": {
     "antd": "^3.5.4",
     "axios": "^0.18.0",
+    "rc-cascader": "^0.14.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-router": "^3.2.1",
