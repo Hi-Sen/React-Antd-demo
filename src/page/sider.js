@@ -23,9 +23,9 @@ export default class Sider extends React.Component {
 					<Menu
 						onClick={this.handleClick}
 						onChange = {this.getValue}
-						style={{ width: 256,height:'90vh',overflow: 'auto'}}
+						style={{ width: 256,height:'90vh',overflow: 'auto',minWidth:256}}
 						defaultSelectedKeys={['1']}
-						defaultOpenKeys = {['sub1']}
+						defaultOpenKeys = {['sub1','sub2','sub3','sub4','sub5','sub10']}
 						mode="inline"
 					>
 
@@ -51,17 +51,19 @@ export default class Sider extends React.Component {
 								<Link to = {'shop_home'}>获取商品列表</Link>
 							</Menu.Item>
 						</SubMenu>
-						<SubMenu key="sub3" title={<span><Icon type="meh-o" /><span>嵌套导航</span></span>}>
-							<Menu.Item key="6">Option 6</Menu.Item>
+						<SubMenu key="sub3" title={<span><Icon type="meh-o" /><span>插件 之 echarts 图表</span></span>}>
+							<Menu.Item key="6">
+								<Link to = {'echarts'}>部分类型图表</Link>
+							</Menu.Item>
 						</SubMenu>
-						<SubMenu key="sub4" title={<span><Icon type="meh" /><span>嵌套导航</span></span>}>
-							<Menu.Item key="7">Option 7</Menu.Item>
+						<SubMenu key="sub4" title={<span><Icon type="meh" /><span>待续</span></span>}>
+							<Menu.Item key="7">待续</Menu.Item>
 						</SubMenu>
-						<SubMenu key="sub5" title={<span><Icon type="frown-o" /><span>嵌套导航</span></span>}>
-							<Menu.Item key="8">Option 8</Menu.Item>
+						<SubMenu key="sub5" title={<span><Icon type="frown-o" /><span>待续</span></span>}>
+							<Menu.Item key="8">待续</Menu.Item>
 						</SubMenu>
-						<SubMenu key="sub6" title={<span><Icon type="smile" /><span>嵌套导航</span></span>}>
-							<Menu.Item key="9">Option 9</Menu.Item>
+						<SubMenu key="sub6" title={<span><Icon type="smile" /><span>待续</span></span>}>
+							<Menu.Item key="9">待续</Menu.Item>
 						</SubMenu>
 
 					</Menu>

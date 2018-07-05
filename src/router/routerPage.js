@@ -1,5 +1,6 @@
 import React from 'react'  
 import { Router, Route, IndexRoute, browserHistor, Link } from 'react-router'  
+// 引入所有基础配置
 import '../config/globalConfig'
   
 import Demo1 from '../page' 
@@ -9,6 +10,7 @@ import Form from '../page/form'
 import Carousel from '../page/carousel' 
 import ShopHome from '../page/shop/home'
 import HomeDetail from '../page/shop/home_detail'
+import Echarts from '../page/echarts'
 
 
 export default class RouteMap extends React.Component {  
@@ -26,6 +28,7 @@ export default class RouteMap extends React.Component {
                     <Route path='/carousel' component={Carousel}></Route>
                     <Route path='/shop_home' component={ShopHome}></Route>
                     <Route path='/shop_home_detail' component={HomeDetail}></Route>
+                    <Route path='/echarts' component={Echarts}></Route>
                 </Route>  
             </Router>  
         )  

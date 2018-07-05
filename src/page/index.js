@@ -57,7 +57,7 @@ export default class Demo1 extends Component {
                             <Col span={6}>
                                 <Avatar style={{backgroundColor: '#87d068',marginRight:20}} icon="user" />  
                                 <Dropdown overlay={menu}>
-                                    <span className="ant-dropdown-link" href="#" style={{color:'#fff'}}>
+                                    <span className="ant-dropdown-link" href="#" style={{color:'#fff',cursor:'pointer'}}>
                                         Hi-Sen <Icon type="down" />
                                     </span>
                                 </Dropdown>
