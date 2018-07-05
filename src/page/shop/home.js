@@ -49,23 +49,8 @@ export default class TabbleAll extends React.Component {
             </div>
         )
     }
-    // 详情方法
-    getDetail (id) {
-        let params = {
-            "ID": id,
-            "SeckillPointPrice": 0
-          }
-        window.Axios.post(window.ApiName.ApiGetPrdouctByID,params).then( res => {
-            this.setState({
-               content: res.Data,
-            })
-            console.log(res)
-        }).catch( err => {
-            console.log(`${err}`)
-        })
-    }
 
-    // 测试请求123
+    // 测试请求商品列表
     componentDidMount () {
         window.Axios.get(window.ApiName.ApiGetHomePage,'').then( res => {
             this.setState({
