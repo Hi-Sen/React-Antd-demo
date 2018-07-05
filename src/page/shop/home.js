@@ -65,7 +65,7 @@ export default class TabbleAll extends React.Component {
         })
     }
 
-    // 测试请求
+    // 测试请求123
     componentDidMount () {
         window.Axios.get(window.ApiName.ApiGetHomePage,'').then( res => {
             this.setState({
