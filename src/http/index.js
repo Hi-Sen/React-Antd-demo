@@ -1,7 +1,7 @@
 
 import Axios from 'axios'
 
-var baseUrl = 'https://ws.mammasay.com/'; 
+var baseUrl = '请联系作者'; 
 
 var axios = Axios.create({
     　baseURL: baseUrl,
