@@ -9,3 +9,5 @@
 ![img](https://github.com/Hi-Sen/React-Antd-demo-one/blob/master/src/img/e.png)
 
 ![img](https://github.com/Hi-Sen/React-Antd-demo-one/blob/master/src/img/echarts.png)
+
+![img](https://github.com/Hi-Sen/React-Antd-demo-one/blob/master/src/img/f.png)
