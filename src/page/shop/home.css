@@ -1,5 +1,8 @@
 .homeSty{
-    width:700px;
+    width:500px;
     background-color:#f7f7f7;
     margin: 50px auto;
+}
+.lazyImg{
+    width:500px;
 }

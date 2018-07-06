@@ -56,8 +56,10 @@ export default class Sider extends React.Component {
 								<Link to = {'echarts'}>部分类型图表</Link>
 							</Menu.Item>
 						</SubMenu>
-						<SubMenu key="sub4" title={<span><Icon type="meh" /><span>待续</span></span>}>
-							<Menu.Item key="7">待续</Menu.Item>
+						<SubMenu key="sub4" title={<span><Icon type="meh" /><span>富文本编辑器 WangEditor</span></span>}>
+							<Menu.Item key="7">
+							<Link to = {'editor'}>Editor</Link>
+							</Menu.Item>
 						</SubMenu>
 						<SubMenu key="sub5" title={<span><Icon type="frown-o" /><span>待续</span></span>}>
 							<Menu.Item key="8">待续</Menu.Item>

@@ -11,6 +11,7 @@ import Carousel from '../page/carousel'
 import ShopHome from '../page/shop/home'
 import HomeDetail from '../page/shop/home_detail'
 import Echarts from '../page/echarts'
+import WangEditor from '../page/wangeditor'
 
 
 export default class RouteMap extends React.Component {  
@@ -29,6 +30,7 @@ export default class RouteMap extends React.Component {
                     <Route path='/shop_home' component={ShopHome}></Route>
                     <Route path='/shop_home_detail' component={HomeDetail}></Route>
                     <Route path='/echarts' component={Echarts}></Route>
+                    <Route path='/editor' component={WangEditor}></Route>
                 </Route>  
             </Router>  
         )  
