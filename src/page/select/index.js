@@ -16,13 +16,13 @@ export default class Update extends Component {
                 url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png'
             },
             {
-                uid: -1,
+                uid: -2,
                 name: 'xxx.png',
                 status: 'done',
                 url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png'
             },
             {
-                uid: -1,
+                uid: -3,
                 name: 'xxx.png',
                 status: 'done',
                 url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png'
