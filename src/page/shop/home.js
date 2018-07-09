@@ -61,5 +61,4 @@ export default class TabbleAll extends React.Component {
             console.log(`${err}`)
         })
     }
-
 }
