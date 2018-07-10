@@ -31,7 +31,6 @@ export default class TabbleAll extends React.Component {
                 </Carousel>
                 <div style={{lineHeight:5}}>
                     <Spin />&nbsp;&nbsp;&nbsp; <Spin />&nbsp;&nbsp;&nbsp; <Spin /> 
-                    不是正在加载...
                 </div>
                 {/* 商品列表 */}
                 <div className = "shopList">
@@ -62,5 +61,4 @@ export default class TabbleAll extends React.Component {
             console.log(`${err}`)
         })
     }
-
 }

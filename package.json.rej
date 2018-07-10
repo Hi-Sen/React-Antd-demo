@@ -1,0 +1,9 @@
+diff a/package.json b/package.json	(rejected hunks)
+@@ -10,7 +10,6 @@
+     "react": "^16.4.0",
+     "react-dom": "^16.4.0",
+     "react-router": "^3.2.1",
+-    "react-scripts": "1.1.4"
+     "react-scripts": "1.1.4",
+     "wangeditor": "^3.1.1"
+   },

@@ -1,0 +1,10 @@
+diff a/src/http/index.js b/src/http/index.js	(rejected hunks)
+@@ -1,7 +1,7 @@
+ 
+ import Axios from 'axios'
+ 
+-var baseUrl = '请联系作者'; 
++var baseUrl = 'https://ws.mammasay.com/'; 
+ 
+ var axios = Axios.create({
+     　baseURL: baseUrl,
