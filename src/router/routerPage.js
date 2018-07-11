@@ -12,10 +12,7 @@ import ShopHome from '../page/shop/home'
 import HomeDetail from '../page/shop/home_detail'
 import Echarts from '../page/echarts'
 import WangEditor from '../page/wangeditor'
-<<<<<<< HEAD
-=======
 import Select from '../page/select'
->>>>>>> aa22357f868939476d20d7838832e0e60269a694
 
 
 export default class RouteMap extends React.Component {  
@@ -35,10 +32,7 @@ export default class RouteMap extends React.Component {
                     <Route path='/shop_home_detail' component={HomeDetail}></Route>
                     <Route path='/echarts' component={Echarts}></Route>
                     <Route path='/editor' component={WangEditor}></Route>
-<<<<<<< HEAD
-=======
                     <Route path='/select' component={Select}></Route>
->>>>>>> aa22357f868939476d20d7838832e0e60269a694
                 </Route>  
             </Router>  
         )  
