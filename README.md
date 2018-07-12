@@ -12,5 +12,3 @@
 
 ![img](https://github.com/Hi-Sen/React-Antd-demo-one/blob/master/src/img/f.png)
 
-![img](https://github.com/Hi-Sen/React-Antd-demo-one/blob/master/src/img/d1.png)
-![img](https://github.com/Hi-Sen/React-Antd-demo-one/blob/master/src/img/d2.png)
