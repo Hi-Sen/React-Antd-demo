@@ -11,7 +11,9 @@ export default class TabbleAll extends React.Component {
                 <div className = "shopList">
                     {
                         this.props.storeArr.map((item,index) => {
-                            return  <Row style={{
+                            return  <Row 
+                                    key = {index}
+                                    style={{
                                             marginBottom:'10px',
                                             backgroundColor:'#fff',
                                             height:'176px'

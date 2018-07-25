@@ -37,6 +37,7 @@ export default class TabbleAll extends React.Component {
                     {
                         this.state.shopArr.map((item,index) => {
                             return  <StoreComponent
+                                        key = {index}
                                         storeArr = {this.state.shopArr}
                                         callback = {(id) => {
                                             document.location.hash = "#/shop_home_detail?id="+id

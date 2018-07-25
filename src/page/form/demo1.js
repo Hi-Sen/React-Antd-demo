@@ -6,7 +6,6 @@ import { Divider } from 'antd';
 import './demo1.css'
 const FormItem = Form.Item;
 
-const CreatForm = Form.create;
 
 class FormDemo extends React.Component {
     handleSubmit = (e) => {
@@ -51,6 +50,6 @@ class FormDemo extends React.Component {
                 </Form>
             );
     }
-}(CreatForm()(FormDemo));
+}(Form.create()(FormDemo));
 
-export default CreatForm()(FormDemo);
+export default Form.create()(FormDemo);

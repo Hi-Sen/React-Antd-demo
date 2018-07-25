@@ -1,5 +1,6 @@
 import React from 'react'  
 import { Router, Route, IndexRoute, browserHistor, Link } from 'react-router'  
+
 // 引入所有基础配置
 import '../config/globalConfig'
   
@@ -13,6 +14,7 @@ import HomeDetail from '../page/shop/home_detail'
 import Echarts from '../page/echarts'
 import WangEditor from '../page/wangeditor'
 import Select from '../page/select'
+import Redux from '../page/redux'
 
 
 export default class RouteMap extends React.Component {  
@@ -33,6 +35,7 @@ export default class RouteMap extends React.Component {
                     <Route path='/echarts' component={Echarts}></Route>
                     <Route path='/editor' component={WangEditor}></Route>
                     <Route path='/select' component={Select}></Route>
+                    <Route path='/redux' component={Redux}></Route>
                 </Route>  
             </Router>  
         )  

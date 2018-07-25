@@ -66,9 +66,9 @@ export default class Sider extends React.Component {
 								<Link to = {'select'}>上传图片</Link>
 							</Menu.Item>
 						</SubMenu>
-						<SubMenu key="sub5" title={<span><Icon type="frown" /><span>待续</span></span>}>
+						<SubMenu key="sub6" title={<span><Icon type="frown" /><span>redux 状态管理</span></span>}>
 							<Menu.Item key="8">
-								待续
+							<Link to = {'redux'}>Redux</Link>
 							</Menu.Item>
 						</SubMenu>
 
