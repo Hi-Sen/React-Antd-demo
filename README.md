@@ -1,3 +1,5 @@
+###  <span style="font-siez='20px'">2018 年 5 月 </span>  <br/>
+
 经过React Native 的洗礼之后，写了这个 demo ；React 是为了使前端的V层更具组件化，能更好的复用，同时可以让你从操作dom中解脱出来，只需要操作数据就会改变相应的dom； 而React Native 是希望我们能够使用前端的技术栈就可以创建出能够在不同平台运行的一个框架，性能可能比原生app差一点点。
 
 ReactJs和React Native的原理是相同的，都是由js实现的虚拟dom来驱动界面view层渲染。只不过ReactJs是驱动html dom渲染； React Native是驱动android/ios原生组件渲染。
