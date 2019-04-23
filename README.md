@@ -11,7 +11,7 @@ React基于组件（component）开发，组件和组件之间通过props传递�
 js模拟dom结构，等整个组件的dom更新完毕，才渲染到页面，简单来说只更新了相比之前改变了的部分，而不是全部刷新，所以效率很高。
 
 
-###  <span style="font-siez='20px'"> 叫比较而言：本人更喜欢 React 的开发思想和设计模式 </span>  <br/>
+#####  <span style="font-siez='20px'"> 比较而言：本人更喜欢 React 的开发思想和设计模式 </span>  <br/>
 
 ![img](https://github.com/Hi-Sen/React-Antd-demo-one/blob/master/src/img/a.png)
 
